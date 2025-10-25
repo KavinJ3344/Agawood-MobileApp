@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Agawood Mobile App 🌿</Text>
+      <Text style={styles.title}>Welcome to Agawood Mobile App</Text>
       <Text>This is working on web and mobile!</Text>
       <StatusBar style="auto" />
     </View>
