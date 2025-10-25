@@ -1,0 +1,42 @@
+# =============================
+# 📱 Expo / React Native Frontend
+# =============================
+
+# Node modules
+node_modules/
+
+# Expo specific
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+metro-cache/
+.packager/
+*.jsbundle
+
+# Logs
+expo-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+babel-cache/
+jest-cache/
+metro-cache/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
