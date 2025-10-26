@@ -1,26 +1,13 @@
+import './global.css';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Welcome from './kande/(auth)/welcome';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Agawood Mobile App</Text>
-      <Text>This is working on web and mobile!</Text>
+    <SafeAreaProvider>
+      <Welcome />
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ed3838ff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 22,
-    fontWeight: 'bold',
-    marginBottom: 8,
-  },
-});
